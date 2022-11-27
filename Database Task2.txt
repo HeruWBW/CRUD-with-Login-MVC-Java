@@ -1,0 +1,14 @@
+create database myjavacode;
+
+create table project2 (
+	id int(3) auto_increment primary key, 
+	name varchar (25), 
+	email varchar(25), 
+	username varchar(25), 
+	password varchar(25), 
+	phone varchar(25), 
+	photo blob, 
+	file longtext, 
+	comment  varchar(150), 
+	admin varchar(25)
+);
